@@ -7,7 +7,7 @@
  * @n:unsigned interger
  * Return:void
  */
-void print_strings(const char *separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...);
 {
 	va_list list;
 	unsigned int i;
